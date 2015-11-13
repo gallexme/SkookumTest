@@ -1,0 +1,38 @@
+
+// &raw PointerToUberGraphFrame !@uber_graph_frame // Currently unsupported
+// &raw AnimNode_Root  !@anim_graph_node_root // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_TransitionResult !@anim_graph_node_transition_result // Currently unsupported
+// &raw AnimNode_BlendSpacePlayer !@anim_graph_node_blend_space_player // Currently unsupported
+// &raw AnimNode_Root  !@anim_graph_node_state_result // Currently unsupported
+// &raw AnimNode_SequencePlayer !@anim_graph_node_sequence_player // Currently unsupported
+// &raw AnimNode_Root  !@anim_graph_node_state_result // Currently unsupported
+// &raw AnimNode_ModifyBone !@anim_graph_node_modify_bone // Currently unsupported
+// &raw AnimNode_ConvertComponentToLocalSpace !@anim_graph_node_component_to_local_space // Currently unsupported
+// &raw AnimNode_ModifyBone !@anim_graph_node_modify_bone // Currently unsupported
+// &raw AnimNode_ConvertLocalToComponentSpace !@anim_graph_node_local_to_component_space // Currently unsupported
+// &raw AnimNode_SequencePlayer !@anim_graph_node_sequence_player // Currently unsupported
+// &raw AnimNode_Root  !@anim_graph_node_state_result // Currently unsupported
+// &raw AnimNode_SequencePlayer !@anim_graph_node_sequence_player // Currently unsupported
+// &raw AnimNode_Root  !@anim_graph_node_state_result // Currently unsupported
+// &raw AnimNode_SequencePlayer !@anim_graph_node_sequence_player // Currently unsupported
+// &raw AnimNode_Root  !@anim_graph_node_state_result // Currently unsupported
+// &raw AnimNode_BlendSpacePlayer !@anim_graph_node_blend_space_player // Currently unsupported
+// &raw AnimNode_Root  !@anim_graph_node_state_result // Currently unsupported
+// &raw AnimNode_StateMachine !@anim_graph_node_state_machine // Currently unsupported
+&raw Real           !@speed         // Speed [Speed]
+&raw Real           !@direction     // Direction [Direction]
+&raw Boolean        !@enable_jump?  // Enable Jump [Enable Jump]
+&raw Boolean        !@jumping?      // Jumping [Jumping]
+&raw Boolean        !@crouching?    // Crouching [Crouching]
+&raw RotationAngles !@test_rotation // Test Rotation [Test Rotation]

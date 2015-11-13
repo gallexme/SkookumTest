@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------------------
+// Description World Constructor
+// Examples    Called by system - call World!named() if you want to instantiate a World
+//             object via script.
+// Author(s)   Conan Reis
+//---------------------------------------------------------------------------------------
+
+()
+
+  [
+  // No need to call Actor!()  
+  @@world: this
+  @test?: false
+
+  // Test of a script running immediately at startup
+  Debug.println("World instance constructor called.")
+ 
+  if Debug.engine_present?
+    [ 
+    branch [ _test_sequence ]
+    ]
+  ]
+

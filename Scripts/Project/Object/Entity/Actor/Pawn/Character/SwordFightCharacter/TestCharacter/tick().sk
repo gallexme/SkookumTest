@@ -1,0 +1,24 @@
+//---------------------------------------------------------------------------------------
+// Method description...
+// 
+// Params:
+//   arg1: 
+//
+// Return Params:
+//   rarg1: 
+//
+// Returns: 
+//
+// Notes:     
+// Examples:  
+// See:       
+//---------------------------------------------------------------------------------------
+&blueprint
+(Real delta_time) 
+[
+   
+  //@current_velocity=[@weapon_mesh.socket_location(Name!("")) - @last_position] / delta_time
+ // @last_position= @weapon_mesh.socket_location(Name!(""))
+]
+  // Replace with custom code body or leave blank for C++ routine.
+

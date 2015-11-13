@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{DD4805E0-4A14-643C-5D8C-4E830419C437}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "SwordFightSimulator",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

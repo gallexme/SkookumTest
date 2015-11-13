@@ -1,0 +1,19 @@
+//---------------------------------------------------------------------------------------
+// Description Test coroutine
+// Author(s)   Conan Reis
+//---------------------------------------------------------------------------------------
+
+()
+
+  [
+  _wait(0.25)
+  Debug.print("\nStarting world script...\n")
+  branch [ _test(1) ]
+  _wait(3)
+  Debug.print("Starting another world script...\n")
+  branch [ _test(0.5) ]
+  _wait(5)
+  Debug.print("Ending world scripts.\n")
+  _test
+  ] 
+

@@ -1,0 +1,6 @@
+
+&raw Real      !@volume_multiplier // Volumee Multiplier [VolumeMultiplier]
+&raw Real      !@pitch_multiplier  // Pitch Multiplier [PitchMultiplier]
+&raw Boolean   !@follow?           // If this sound should follow its owner [bFollow]
+&raw String    !@attach_name       // Socket or bone name to attach sound to [AttachName]
+&raw SoundBase !@sound             // Sound to play [Sound]

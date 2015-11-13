@@ -1,0 +1,4 @@
+// GameState is replicated and is valid on servers and clients.
+//
+// UE4 name of this class: GameState
+

@@ -1,0 +1,6 @@
+
+&raw ParticleSystem !@pstemplate      // Particle System to Spawn [PSTemplate]
+&raw String         !@socket_name     // SocketName to attach to [SocketName]
+&raw Boolean        !@attached?       // Should attach to the bone/socket [Attached]
+&raw Vector3        !@location_offset // Location offset from the socket [LocationOffset]
+&raw RotationAngles !@rotation_offset // Rotation offset from socket [RotationOffset]

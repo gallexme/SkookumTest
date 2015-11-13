@@ -1,0 +1,12 @@
+//---------------------------------------------------------------------------------------
+// Description World Class Constructor
+// Examples    Called by system 
+// Author(s)   Conan Reis
+//---------------------------------------------------------------------------------------
+
+()
+
+  [
+  Debug.println("World class constructor called.")
+  ]
+

@@ -1,0 +1,26 @@
+//---------------------------------------------------------------------------------------
+// Method description...
+// 
+// Params:
+//   arg1: 
+//
+// Return Params:
+//   rarg1: 
+//
+// Returns: 
+//
+// Notes:     
+// Examples:  
+// See:       
+//---------------------------------------------------------------------------------------
+&blueprint
+() 
+[
+  !weaponSocket:Name!("RightHandWeapon")
+  !up_vector:MathLib.up_vector(@mesh.socket_rotation(weaponSocket))
+  !socket_location: @mesh.socket_location(weaponSocket)
+ // SystemLib.line_trace_multi_for_objects(this,socket_location,[up_vector*100]+socket_location,)
+
+]
+  // Replace with custom code body or leave blank for C++ routine.
+

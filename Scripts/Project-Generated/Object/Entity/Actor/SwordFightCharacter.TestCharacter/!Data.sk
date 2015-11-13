@@ -1,0 +1,8 @@
+
+// &raw PointerToUberGraphFrame !@uber_graph_frame // Currently unsupported
+&raw CameraComponent       !@camera           // Camera [Camera]
+&raw SpringArmComponent    !@spring_arm       // Spring Arm [SpringArm]
+&raw RotationAngles        !@aim_position     // Aim Position [AimPosition]
+&raw SkeletalMeshComponent !@weapon_mesh      // Weapon Mesh [WeaponMesh]
+&raw Vector3               !@last_position    // Last Position [lastPosition]
+&raw Vector3               !@current_velocity // Current Velocity [currentVelocity]

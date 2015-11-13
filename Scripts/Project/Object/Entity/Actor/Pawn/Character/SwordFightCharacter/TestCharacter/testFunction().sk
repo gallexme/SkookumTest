@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------------------
+// Method description...
+// 
+// Params:
+//   arg1: 
+//
+// Return Params:
+//   rarg1: 
+//
+// Returns: 
+//
+// Notes:     
+// Examples:  
+// See:       
+//---------------------------------------------------------------------------------------
+&blueprint
+(Vector test) 
+[
+print("test")
+]
+  // Replace with custom code body or leave blank for C++ routine.
+
