@@ -16,6 +16,7 @@
 
 (Vector3 hit_velocity)
 [
+/*
 @health:= 
   [
     [
@@ -23,7 +24,7 @@
     ]
     *GameLib.world_delta_seconds(this)]>>Integer
     
-   println(@health>>String)
+   println(@health>>String)*/
 ] 
 
   // Replace with custom code body or leave blank for C++ routine.
