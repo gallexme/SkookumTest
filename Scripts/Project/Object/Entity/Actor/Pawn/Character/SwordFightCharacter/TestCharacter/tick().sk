@@ -16,9 +16,10 @@
 &blueprint
 (Real delta_time) 
 [
-   
-  //@current_velocity=[@weapon_mesh.socket_location(Name!("")) - @last_position] / delta_time
- // @last_position= @weapon_mesh.socket_location(Name!(""))
+  !current_position:@weapon_mesh.socket_location("">>Name)
+  @current_velocity:=[current_position - @last_position] * delta_time
+  @last_position:= current_position
+  
 ]
   // Replace with custom code body or leave blank for C++ routine.
 

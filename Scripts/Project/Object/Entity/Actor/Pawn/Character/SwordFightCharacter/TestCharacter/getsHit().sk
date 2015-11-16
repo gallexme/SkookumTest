@@ -14,17 +14,20 @@
 // See:       
 //---------------------------------------------------------------------------------------
 
-(Vector3 hit_velocity)
+(Vector3 hit_velocity, Name bone_name)
 [
-/*
-@health:= 
+
+!damage: 
   [
     [
-      @health>>Real-hit_velocity.length()
+     if hit_velocity.length() < 0 [hit_velocity.length() *-1] else [hit_velocity.length()]
     ]
-    *GameLib.world_delta_seconds(this)]>>Integer
-    
-   println(@health>>String)*/
+    *GameLib.world_delta_seconds(this)
+   ]
+   setHealth(@health-damage)
+   println(@health>>String)
+   println("Damage: "damage)
+  println(this)
 ] 
 
   // Replace with custom code body or leave blank for C++ routine.

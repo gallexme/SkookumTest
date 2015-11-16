@@ -14,15 +14,7 @@
 // See:       
 //---------------------------------------------------------------------------------------
 &blueprint
+(Real new_health) 
 
- (Actor hit_actor,PrimitiveComponent hit_component, String bone_name, Vector3 location)
-[
-  //hit_component.add_force(@current_velocity,bone_name>>Name,true)
-  if [not hit_actor.null?] and hit_actor.class_of?(TestCharacter)
-  [
-    !tc: hit_actor<>TestCharacter
-    tc.getsHit(@current_velocity,bone_name>>Name)
-  ]
-]
   // Replace with custom code body or leave blank for C++ routine.
 
